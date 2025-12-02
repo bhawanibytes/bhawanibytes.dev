@@ -13,15 +13,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <body className={raleway.className}>
         <ThemeProvider
-          attribute='class'
-          defaultTheme='system'
+          attribute="class"
+          defaultTheme="system"
           enableSystem
           disableTransitionOnChange
+          forcedTheme="dark"
         >
-          <div className='mx-auto max-w-3xl px-6 lg:px-8 space-y-10'>
+          <div className="mx-auto max-w-3xl space-y-10 px-6 lg:px-8">
             {children}
             <Footer />
           </div>

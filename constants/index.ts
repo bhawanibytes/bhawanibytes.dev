@@ -7,7 +7,6 @@ type Project = {
   githubLink: string;
 };
 
-
 type Experience = {
   title: string;
   link: string;
@@ -26,6 +25,37 @@ export const contactLinks = {
 };
 
 export const projectsList: Project[] = [
+  {
+    title: "Metta Vibes",
+    description:
+      "An Next.js web application for an behavioral health and wellness services Institute for primaryly focus for Childrens and Women.",
+    tech: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "reCAPTCHA",
+      "FormBold",
+    ],
+    image: "/projects/metta-vibes.png",
+    liveLink: "https://dev.mettavibez.com",
+    githubLink: "private",
+  },
+  {
+    title: "RIMX UI",
+    description: "A modern, reusable React component library.",
+    tech: [
+      "React",
+      "Redux ToolKit",
+      "TypeScript",
+      "Radix UI",
+      "Framer Motion",
+      "Shadcn UI",
+    ],
+    image: "/projects/rimxui.png",
+    liveLink: "https://rimx.bhawanibytes.dev",
+    githubLink: "https://github.com/bhawanibytes/rimxui",
+  },
   {
     title: "Dap - Chat Client",
     description: `A full-stack chat client, let you connect with people on platform while using leveraging web technology only, no need to install application, You can sync your contacts using google account. It leverages one of fastest http and websocket server in Node.js ecosystem, uWebSocket.js .`,
@@ -47,37 +77,6 @@ export const projectsList: Project[] = [
     liveLink: "building",
     githubLink: "https://github.com/bhawanibytes/bubbly",
   },
-  {
-    title: "RIMX UI",
-    description: "A modern, reusable React component library.",
-    tech: [
-      "Redux",
-      "Radix UI",
-      "Framer Motion",
-      "React",
-      "Shadcn UI",
-      "TypeScript",
-    ],
-    image: "/projects/rimxui.png",
-    liveLink: "https://rimx.bhawanibytes.dev",
-    githubLink: "https://github.com/bhawanibytes/rimxui",
-  },
-
-  {
-    title: "Metta Vibes",
-    description:
-      "An Next.js web application for an behavioral health and wellness services Institute for primaryly focus for Childrens and Women.",
-    tech: [
-      "React",
-      "Tailwind CSS",
-      "React.",
-      "Next.js",
-      "Shadcn UI",
-    ],
-    image: "/projects/metta-vibes.png",
-    liveLink: "https://dev.mettavibez.com",
-    githubLink: "private",
-  },
 ];
 
 export const experiences: Experience[] = [
@@ -89,7 +88,7 @@ export const experiences: Experience[] = [
     dateRange: "Nov 2024 – Present",
     highlights: [
       "Lead team to build intial tech infrastracture of Republic Of Sabjiwala.",
-      ],
+    ],
     techStack: "Next.js, Node.js, PostgreSQL, Drizzle, Twilio, Redis",
   },
 ];
