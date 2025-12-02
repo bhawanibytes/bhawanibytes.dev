@@ -21,7 +21,7 @@ export default function Home() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        <div className="flex gap-6 mb-2">
+        <div className="flex flex-col sm:flex-row sm:gap-6 mb-2">
           <h1 className={cn("text-3xl", signika.className)}>Bhawani Singh</h1>
           <h3
             className={cn(

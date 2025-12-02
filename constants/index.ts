@@ -30,12 +30,13 @@ export const projectsList: Project[] = [
     title: "Dap - Chat Client",
     description: `A full-stack chat client, let you connect with people on platform while using leveraging web technology only, no need to install application, You can sync your contacts using google account. It leverages one of fastest http and websocket server in Node.js ecosystem, uWebSocket.js .`,
     tech: [
+      "Next.js",
       "React",
       "RTK",
       "Tailwind CSS",
       "Shadcn UI",
       "Node.js",
-      "UWS",
+      "uWebSocket.js",
       "Drizzle ORM",
       "Postgres",
       "JWT",
@@ -43,7 +44,7 @@ export const projectsList: Project[] = [
       "Winston",
     ],
     image: "/projects/dap.png",
-    liveLink: "https://dap.bhawanibytes.com",
+    liveLink: "building",
     githubLink: "https://github.com/bhawanibytes/bubbly",
   },
   {
@@ -75,7 +76,7 @@ export const projectsList: Project[] = [
     ],
     image: "/projects/metta-vibes.png",
     liveLink: "https://dev.mettavibez.com",
-    githubLink: "https://github.com/bhawanibytes/mettavibes",
+    githubLink: "private",
   },
 ];
 

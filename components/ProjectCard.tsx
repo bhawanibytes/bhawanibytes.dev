@@ -47,20 +47,19 @@ export const ProjectCard = ({
             <a target='_blank' rel='noopener noreferrer' href={liveLink}>
               <Button
                 variant={"secondary"}
-                className='rounded gap-1 h-5 has-[>svg]:px-1 text-xs mr-1 cursor-pointer hover:bg-zinc-800/50'
+                className={`rounded ${liveLink === "building" ? "bg-green-400 text-black " : ""} gap-1 h-5 has-[>svg]:px-1 text-xs mr-1 cursor-pointer hover:bg-zinc-800/50`}
               >
-                <ExternalLink className='size-3' />
-                Live
+                { liveLink === "building" ? <></> : <ExternalLink className='size-3' /> }
+                {liveLink === "building" ? "Building..." : "Live"}
               </Button>
             </a>
             <span className='font-bold'>|</span>
             <a target='_blank' rel='noopener noreferrer' href={githubLink}>
               <Button
                 variant={"secondary"}
-                className='rounded gap-1 h-5 has-[>svg]:px-1 text-xs cursor-pointer hover:bg-zinc-800/50'
-              >
+                className={`rounded gap-1 ${githubLink === "private" ? "text-amber-700" : ""} h-5 has-[>svg]:px-1 text-xs cursor-pointer hover:bg-zinc-800/50'`}              >
                 <FaGithub className='size-3' />
-                Github
+                {githubLink === "private" ? "Private" : "Github"}
               </Button>
             </a>
           </div>
