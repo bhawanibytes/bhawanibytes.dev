@@ -1,4 +1,5 @@
 "use client";
+
 import { cn } from "@lib/utils";
 import { inter, signika } from "@utils/fonts";
 import { motion } from "motion/react";
@@ -12,7 +13,7 @@ import Socials from "@sections/Socials";
 
 export default function Home() {
   return (
-    <div className="mt-10 sm:mt-20 text-neutral-900 dark:text-neutral-100">
+    <div className="mt-10 text-neutral-900 sm:mt-20 dark:text-neutral-100">
       {/* Intro Section  */}
       <motion.section
         id="about"
@@ -21,11 +22,11 @@ export default function Home() {
         viewport={{ once: true, amount: 0.2 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
-        <div className="flex flex-col sm:flex-row sm:gap-6 mb-2">
+        <div className="mb-2 flex flex-col sm:flex-row sm:gap-6">
           <h1 className={cn("text-3xl", signika.className)}>Bhawani Singh</h1>
           <h3
             className={cn(
-              "text-xs mt-5 text-muted-foreground",
+              "text-muted-foreground mt-5 text-xs",
               inter.className
             )}
           >
