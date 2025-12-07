@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "bhawanibytes.dev/sitemap.xml",
+    sitemap: "https://bhawanibytes.dev/sitemap.xml",
   };
 }
