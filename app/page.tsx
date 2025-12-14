@@ -23,10 +23,12 @@ export default function Home() {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <div className="mb-2 flex flex-col sm:flex-row sm:gap-6">
-          <h1 className={cn("text-3xl", signika.className)}>Bhawani Singh</h1>
+          <h1 className={cn("text-3xl", signika.className)}>
+            Hi, I am Bhawani Singh
+          </h1>
           <h3
             className={cn(
-              "text-muted-foreground mt-5 text-xs",
+              "text-muted-foreground mt-5 hidden text-xs sm:block",
               inter.className
             )}
           >

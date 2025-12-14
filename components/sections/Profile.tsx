@@ -1,13 +1,14 @@
+import { Separator } from "@components/ui/separator";
+
 const Profile = () => {
   return (
-    <div className='text-base space-y-2 text-zinc-200'>
+    <div className="space-y-2 text-base text-zinc-200">
       <p>
-        Hi, I&apos;m{" "}
-        <span className='font-semibold text-base'>Software Engineer</span> who
-        loves building things that{" "}
-        <span className='italic'>scale smoothly</span>.
+        <span className="text-base font-semibold">a Software Engineer</span> who
+        loves building things that
+        <span className="font-semibold italic"> scale smoothly</span>.
       </p>
-
+      <Separator className="my-4" />
       <p>
         My core strength lies in backend development, with experience across the
         full stack when required. I value performance, clarity, and writing
