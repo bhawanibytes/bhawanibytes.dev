@@ -7,10 +7,10 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function constructMetadata({
-  title = "Bhawani Singh aka BhawaniBytes | Software Engineer",
+  title = "Bhawani Singh | Software Engineer",
   description = "I'm Bhawani, a software engineer who enjoys building things that scale smoothly. Mostly focused on the backend, sometimes full stack. Explore my work, tech-skills, and experience.",
   image = "/bhawaniBytesThumbnail.png",
-  icons = "/bhawaniSinghAkaBhawaniBytes.png",
+  icons = "/bhawanibytes.ico",
 }: {
   title?: string;
   description?: string;
