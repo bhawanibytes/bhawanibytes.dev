@@ -25,6 +25,7 @@ export function constructMetadata({
       title,
       description,
       type: "website",
+      siteName: "BhawaniBytes",
       url: "https://bhawanibytes.dev",
       images: [
         {
