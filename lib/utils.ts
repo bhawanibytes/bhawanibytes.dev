@@ -42,7 +42,7 @@ export function constructMetadata({
       images: [image],
       creator: "@bhawanibytes",
     },
-    icons,
+    // icons,
     metadataBase: new URL("https://bhawanibytes.dev"),
     robots: {
       index: true,
