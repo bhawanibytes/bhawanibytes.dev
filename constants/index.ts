@@ -57,7 +57,7 @@ export const projectsList: Project[] = [
     githubLink: "https://github.com/bhawanibytes/rimxui",
   },
   {
-    title: "Dap - Chat Client",
+    title: "Bubbly - Chat Client",
     description: `A full-stack chat client, let you connect with people on platform while using leveraging web technology only, no need to install application, You can sync your contacts using google account. It leverages one of fastest http and websocket server in Node.js ecosystem, uWebSocket.js .`,
     tech: [
       "Next.js",
@@ -74,7 +74,7 @@ export const projectsList: Project[] = [
       "Winston",
     ],
     image: "/projects/dap.png",
-    liveLink: "building",
+    liveLink: "https://bubbly.bhawanibytes.dev",
     githubLink: "https://github.com/bhawanibytes/bubbly",
   },
 ];

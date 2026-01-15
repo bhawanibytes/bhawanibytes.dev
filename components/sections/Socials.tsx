@@ -44,6 +44,7 @@ const Socials = () => {
         </Button>
       </a>
 
+      {/* Todo:  Upload Resume */}
       <a href='/resume.pdf' download target='_blank' rel='noopener noreferrer'>
         <Button variant='outline' className='text-xs h-7 cursor-pointer'>
           <FileText className='size-4' />
