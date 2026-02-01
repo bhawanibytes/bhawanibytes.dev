@@ -14,7 +14,7 @@ const SkillsSection = () => {
           <div className="flex flex-wrap gap-4">
             {items.map(({ title, img }) => (
               <div key={title} className="flex flex-col items-center">
-                <Badge className="flex items-center gap-2 px-3 py-1.5 text-xs dark:bg-neutral-900/90 rounded-full border dark:border-neutral-700 dark:text-neutral-200 cursor-pointer hover:dark:bg-neutral-800/20 shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+                <Badge className="flex cursor-pointer items-center gap-2 rounded-full border px-3 py-1.5 text-xs shadow-[0_3px_10px_rgb(0,0,0,0.2)] dark:border-neutral-700 dark:bg-neutral-900/90 dark:text-neutral-200 hover:dark:bg-neutral-800/20">
                   <Image src={img} alt={title} width={15} height={15} />
                   {title}
                 </Badge>
@@ -38,7 +38,7 @@ function SkillSectionHeading({
 }) {
   return (
     <h3
-      className={`text-xs text-muted-foreground ${className}`}
+      className={`text-muted-foreground text-xs ${className}`}
     >{`< ${title} />`}</h3>
   );
 }

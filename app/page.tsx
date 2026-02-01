@@ -10,6 +10,7 @@ import Skills from "@sections/Skills";
 import Experience from "@sections/Experience";
 import { Separator } from "@components/ui/separator";
 import Socials from "@sections/Socials";
+import ViewAllButton from "@components/ViewAllButton";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       >
         <div className="mb-2 flex flex-col sm:flex-row sm:gap-6">
           <h1 className={cn("text-3xl", signika.className)}>
-            Hi, I am Bhawani Singh
+            Hi, I am Bhawani
           </h1>
           <h3
             className={cn(
@@ -66,6 +67,7 @@ export default function Home() {
         <SectionHeading name="Featured Projects" />
         {/* fix here  */}
         <Projects />
+        <ViewAllButton title="projects" href="/projects" className="" />
         <Separator className="my-6" />
       </motion.section>
 

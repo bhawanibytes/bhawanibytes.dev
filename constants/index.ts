@@ -22,13 +22,15 @@ export const contactLinks = {
   linkedin: "https://linkedin.com/in/bhawanibytes",
   github: "https://github.com/bhawanibytes",
   twitter: "https://x.com/bhawanibytes",
+  phone: "tel:+919772868352",
+  whatsapp: "https://wa.me/919772868352",
 };
 
 export const projectsList: Project[] = [
   {
     title: "Metta Vibes",
     description:
-      "An Next.js web application for an behavioral health and wellness services Institute for primaryly focus for Childrens and Women.",
+      "A Next.js web application for a behavioral health and wellness services institute serving 200+ families, primarily focused on providing mental health support for children and women. Features secure contact forms with reCAPTCHA, and responsive design.",
     tech: [
       "Next.js",
       "React",
@@ -43,7 +45,8 @@ export const projectsList: Project[] = [
   },
   {
     title: "RIMX UI",
-    description: "A modern, reusable React component library.",
+    description:
+      "A modern, reusable React component library with 15+ production-ready components. Built with TypeScript for type safety, featuring smooth animations with Framer Motion, and state management with Redux Toolkit.",
     tech: [
       "React",
       "Redux ToolKit",
@@ -58,7 +61,7 @@ export const projectsList: Project[] = [
   },
   {
     title: "Bubbly - Chat Client",
-    description: `A full-stack chat client, let you connect with people on platform while using leveraging web technology only, no need to install application, You can sync your contacts using google account. It leverages one of fastest http and websocket server in Node.js ecosystem, uWebSocket.js .`,
+    description: `A full-stack real-time chat application built with modern web technologies. Features include instant messaging, contact syncing via Google OAuth, and WebSocket-powered real-time communication using uWebSocket.js - one of the fastest WebSocket servers in the Node.js ecosystem.`,
     tech: [
       "Next.js",
       "React",
@@ -81,14 +84,19 @@ export const projectsList: Project[] = [
 
 export const experiences: Experience[] = [
   {
-    title: "ROS",
-    link: "#",
+    title: "Republic Of Sabjiwala (ROS)",
+    link: "https://republicofsabjiwala.com",
     role: "Full Stack Engineer",
     location: "Jaipur, Rajasthan",
     dateRange: "Nov 2024 – Present",
     highlights: [
-      "Lead team to build intial tech infrastracture of Republic Of Sabjiwala.",
+      "Leading technical architecture and development of a multi-vendor e-commerce platform (currently in development)",
+      "Building type-safe APIs with tRPC and designing scalable database schemas with Drizzle ORM, including complex vendor-product relationships and geospatial data using PostGIS extension",
+      "Guiding development team on architecture decisions, best practices, and PostgreSQL query optimization",
+      "Implementing system infrastructure including real-time order tracking, SMS notifications via Twilio, and Redis caching strategies",
+      "Managing PostgreSQL extensions (PostGIS for location-based features) and database optimization techniques",
     ],
-    techStack: "Next.js, Node.js, PostgreSQL, Drizzle, Twilio, Redis",
+    techStack:
+      "Next.js, React, RTK, tRPC, Express.js, Node.js, PostgreSQL, Drizzle, Twilio, Redis",
   },
 ];
