@@ -51,15 +51,15 @@ export default function ExperienceCard({
       <ul className="mt-2 space-y-2 text-sm leading-snug">
         {highlights.map((point, i) => (
           <li key={i} className="flex items-start">
-            <Dot className="mt-0.5" size={18} />
-            <span className="ml-1">{point}</span>
+            <Dot className="mt-0.5 flex-shrink-0" size={18} />
+            <span className="ml-2">{point}</span>
           </li>
         ))}
 
         {techStack && (
           <li className="flex items-start">
-            <Dot className="mt-0.5 mr-1.5" size={16} />
-            <span className="">
+            <Dot className="mt-0.5 flex-shrink-0" size={18} />
+            <span className="ml-2">
               Tech Stack:{" "}
               <span className="font-semibold dark:text-neutral-200">
                 {techStack}

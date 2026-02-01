@@ -1,9 +1,6 @@
 # Portfolio TODO
 
 ## Critical (Do This Week)
-- [ ] Upload resume PDF to `/public` folder
-- [ ] Add "Download Resume" button to Profile section
-- [ ] Verify all project live links are working
 - [ ] Deploy any undeployed projects
 
 ## High Priority (Next Week)

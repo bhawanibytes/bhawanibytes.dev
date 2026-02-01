@@ -17,13 +17,16 @@ type Experience = {
   techStack: string;
 };
 
+export const resumeLink = "https://docs.google.com/document/d/1Y9mSwRXbTVUpci14QqOjQlBlLS1WGTP1wdGjh-3E5R4/edit?usp=sharing";
+export const contactNumber = "+919772868352";
+
 export const contactLinks = {
   email: "mailto:bhawanibytes@gmail.com",
   linkedin: "https://linkedin.com/in/bhawanibytes",
   github: "https://github.com/bhawanibytes",
   twitter: "https://x.com/bhawanibytes",
-  phone: "tel:+919772868352",
-  whatsapp: "https://wa.me/919772868352",
+  phone: `tel:${contactNumber}`,
+  whatsapp: `https://wa.me/${contactNumber}`,
 };
 
 export const projectsList: Project[] = [

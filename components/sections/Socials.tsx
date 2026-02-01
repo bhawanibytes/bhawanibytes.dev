@@ -1,9 +1,8 @@
-// TODO: upload resume line 61
 import { Button } from "../ui/button";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { BsTwitterX, BsWhatsapp } from "react-icons/bs";
 import { Mail, Phone, FileText } from "lucide-react";
-import { contactLinks } from "@/constants";
+import { contactLinks, resumeLink } from "@/constants";
 
 const Socials = () => {
   return (
@@ -58,7 +57,7 @@ const Socials = () => {
         </Button>
       </a>
 
-      <a href="/resume.pdf" download target="_blank" rel="noopener noreferrer">
+      <a href={resumeLink} target="_blank" rel="noopener noreferrer">
         <Button variant="outline" className="h-7 cursor-pointer text-xs">
           <FileText className="size-4" />
           <span>Resume</span>
